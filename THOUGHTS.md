@@ -16,3 +16,6 @@
 ## Learn what a Context is and how to use it well in Go and what it is used for
 
 ## What is DSN and ODBC
+
+## Connection Pools?
+Connection pool sizing is a deep topic — there's a famous HikariCP (Java connection pool) post called "About Pool Sizing" that applies directly to any language. The tldr is that more connections is not always better, and the optimal number is often surprisingly small. Save it for later.
