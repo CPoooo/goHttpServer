@@ -24,7 +24,7 @@ func InitDb() (*pgxpool.Pool, error) {
 
 	connStr := fmt.Sprintf("postgres://%s:%s@%s:%s/%s?sslmode=disable",
 		user, pass, host, port, db)
-	//
+
 	dbpool, err := pgxpool.New(context.Background(), connStr)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Unable to create connection pool: %v\n", err)
