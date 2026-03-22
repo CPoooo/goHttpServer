@@ -20,6 +20,7 @@ auth?
 # goals
 just btw reminder to go from tcp -> http protocol (start at tcp level) - could go as low as syn syn-ack ack?
 1. connect to db (done)
-2. open port and accept connections (here)
+2. open port and accept connections (done)
+2b. properly parse and print said connection
 3. parse connection and do some action
 4. return something to the client
